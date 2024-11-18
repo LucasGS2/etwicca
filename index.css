@@ -1,0 +1,136 @@
+/************ INTRODUCAO ***************/
+
+section.introducao-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #404863;
+}
+
+section.introducao-container div.text-content {
+    color: #ffffff;
+    max-width: 45%;
+}
+
+section.introducao-container div.text-content h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+section.introducao-container div.text-content p {
+    font-size: 18px;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+section.introducao-container div.text-content a {
+    color: #4682ff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+section.introducao-container div.image-container {
+    position: relative;
+    max-width: 45%;
+}
+
+section.introducao-container div.image-container img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/********** SERVICOS ***********/
+
+section.servicos-container {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+section.servicos-container h2{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    margin: 5px 0;
+}
+
+section.servicos-container div.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+section.servicos-container div.container div.service {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 25%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+section.servicos-container div.container div.service img {
+    width: 100%;
+    border-radius: 10px;
+    border: solid 2px #000;
+}
+
+section.servicos-container div.container div.service h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/********** END-TO-END ***********/
+
+section.endToEnd-container {
+    width: 100%;
+    height: auto;
+    padding: 50px 20px;
+    background-color: #2D354B;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #fff;
+  }
+
+  .services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+
+  .service-box {
+    background-color: #363d52; /* Fundo dos blocos */
+    padding: 1.5rem;
+    border-radius: 8px;
+  }
+
+  .service-box h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #fff;
+    text-align: center;
+  }
+
+  .service-box p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #fff;
+  }
+
+  .service-box a {
+    color: #4682ff; /* Cor do link */
+    text-decoration: none;
+    font-weight: bold;
+  }
