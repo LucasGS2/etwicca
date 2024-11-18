@@ -1,0 +1,65 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background-color: #2e3342;
+}
+
+h1 {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.intro {
+    text-align: center;
+    padding: 20px 40px;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.principios {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #2e3342;
+}
+
+.principio {
+    background-color: #3a4155;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.principio img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.principio h2 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.principio p {
+    font-size: 16px;
+    color: #dcdcdc;
+}

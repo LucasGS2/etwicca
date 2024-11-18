@@ -1,0 +1,47 @@
+section.contact-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #4c516d;
+}
+
+section.contact-container h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+section.contact-container p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+section.contact-container hr {
+    border: 0;
+    border-top: 1px solid #fff;
+    margin: 20px 0;
+}
+
+section.contact-container div.contact-info {
+    margin-bottom: 20px;
+}
+
+section.contact-container div.contact-info p {
+    margin: 5px 0;
+}
+
+section.contact-container div.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+section.contact-container div.logo img {
+    width: 200px;
+    height: 100px;
+    margin-bottom: 10px;
+}

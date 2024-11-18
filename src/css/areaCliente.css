@@ -1,0 +1,88 @@
+section.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100% - 65px);
+}
+
+section.login-container div.login-box {
+    background-color: #2b2d42;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 300px;
+}
+
+section.login-container div.login-box h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+section.login-container div.login-box form label {
+    color: #c9c9c9;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+section.login-container div.login-box form input[type="text"],
+section.login-container div.login-box form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #44475a;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+section.login-container div.login-box form input[type="text"]:focus,
+section.login-container div.login-box form input[type="password"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px #8d99ae;
+}
+
+section.login-container div.login-box form div.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+section.login-container div.login-box form div.remember-me input {
+    margin-right: 5px;
+}
+
+section.login-container div.login-box form div.remember-me label {
+    color: #c9c9c9;
+    font-size: 14px;
+}
+
+section.login-container div.login-box form  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #8d99ae;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+section.login-container div.login-box form  button:hover {
+    background-color: #5e677a;
+}
+
+section.login-container div.login-box form a.forgot-password {
+    color: #8d99ae;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+section.login-container div.login-box form a.forgot-password:hover {
+    text-decoration: underline;
+}
